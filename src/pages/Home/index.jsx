@@ -7,7 +7,7 @@ export function Home() {
       <h1>Simple Omelette Recipe</h1>
       <span>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.</span>
-      <div>
+      <div className='preparation'>
         <h4>Preparation time</h4>
         <ul>
           <li><strong>Total:</strong> Approximately 10 minutes</li>
@@ -23,7 +23,7 @@ export function Home() {
         <li>1 tablespoon of butter or oil</li>
         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
-      <h1>Instructions</h1>
+      <h2>Instructions</h2>
       <ul>
         <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
           You can add a tablespoon of water or milk for a fluffier texture.</li>
