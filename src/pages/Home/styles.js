@@ -36,6 +36,10 @@ h2{
   margin-left: 3rem;
   font-size: 1.2rem;
 }
+.preparation ul li{
+  
+  list-style: ${({theme})=>theme.COLORS.Dark_Raspberry};
+}
   
 
 
