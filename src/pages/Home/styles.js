@@ -20,14 +20,21 @@ h2{
 
 }
 .preparation{
-  margin: 2rem;
+  margin: 1rem 0 1rem;
+  border-radius: 8px;
+  padding: 1rem;
   font-family: "Outfit", sans-serif;
-  
+  background-color: ${({theme})=>theme.COLORS.Rose_White};
 }
 .preparation h4{
   color: ${({theme})=>theme.COLORS.Dark_Raspberry};
-  margin-left: -1rem;
   margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+}
+.preparation ul{
+  margin-left: 3rem;
+  font-size: 1.2rem;
 }
   
 
