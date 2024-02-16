@@ -32,12 +32,20 @@ h2{
   margin-left: 1.5rem;
   font-size: 1.2rem;
 }
+
 .preparation ul{
   margin-left: 3rem;
   font-size: 1.2rem;
 }
 .preparation ul li{  
   list-style: ${({theme})=>theme.COLORS.Dark_Raspberry};
+}
+ul, ol{
+  margin-left: 1rem;
+
+}
+ul li{
+  margin-right: 1rem;
 }
 table{
   width: 100%;

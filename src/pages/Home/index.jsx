@@ -28,7 +28,7 @@ export function Home() {
       </ul>
       <Separator/>
       <h2>Instructions</h2>
-      <ul>
+      <ol>
         <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
           You can add a tablespoon of water or milk for a fluffier texture.</li>
 
@@ -44,7 +44,7 @@ export function Home() {
           fillings. Let it cook for another minute, then slide it onto a plate.</li>
 
         <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
-      </ul>
+      </ol>
 
       <Separator/>
       <h2>Nutrition</h2>
