@@ -17,7 +17,7 @@ h1{
 h2{
   color: ${({theme})=>theme.COLORS.Nutmeg};
   font-weight: 500;
-
+  margin: 1rem 0;
 }
 .preparation{
   margin: 1rem 0 1rem;
@@ -36,12 +36,25 @@ h2{
   margin-left: 3rem;
   font-size: 1.2rem;
 }
-.preparation ul li{
-  
+.preparation ul li{  
   list-style: ${({theme})=>theme.COLORS.Dark_Raspberry};
 }
-  
+table{
+  width: 100%;
+  margin-top: 1.5rem;
+}
 
+tr{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid ${({theme})=>theme.COLORS.Wenge_Brown};  
+  padding: 1rem 0;
+}  
+td:nth-child(2){
+  font-weight: 900;
+  color: ${({theme})=>theme.COLORS.Nutmeg};
+}
 
 
 ` 

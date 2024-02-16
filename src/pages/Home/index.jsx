@@ -1,5 +1,7 @@
 import { Container } from "./styles";
 import imgOmelette from "../../assets/image-omelette.jpeg"
+
+import { Separator } from "../../components/Separator";
 export function Home() {
   return (
     <Container>
@@ -8,6 +10,7 @@ export function Home() {
       <span>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.</span>
       <div className='preparation'>
+
         <h4>Preparation time</h4>
         <ul>
           <li><strong>Total:</strong> Approximately 10 minutes</li>
@@ -23,6 +26,7 @@ export function Home() {
         <li>1 tablespoon of butter or oil</li>
         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
+      <Separator/>
       <h2>Instructions</h2>
       <ul>
         <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
@@ -42,21 +46,24 @@ export function Home() {
         <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
       </ul>
 
+      <Separator/>
       <h2>Nutrition</h2>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
       <table>
-        <tr>
-          <td>Calories</td><td>277kcal</td>
-        </tr>
-        <tr>
-          <td>Carbs</td><td> 0g</td>
-        </tr>
-        <tr>
-          <td>Protein</td><td>20g</td>
-        </tr>
-        <tr>
-          <td>Fat</td><td>22g</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>Calories</td><td>277kcal</td>
+          </tr>
+          <tr>
+            <td>Carbs</td><td> 0g</td>
+          </tr>
+          <tr>
+            <td>Protein</td><td>20g</td>
+          </tr>
+          <tr>
+            <td>Fat</td><td>22g</td>
+          </tr>
+        </tbody>
       </table>
 
     </Container>
