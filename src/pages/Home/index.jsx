@@ -52,16 +52,16 @@ export function Home() {
       <table>
         <tbody>
           <tr>
-            <td>Calories</td><td>277kcal</td>
+            <td>Calories</td><td>277 kcal</td>
           </tr>
           <tr>
-            <td>Carbs</td><td> 0g</td>
+            <td>Carbs</td><td> 0 g</td>
           </tr>
           <tr>
-            <td>Protein</td><td>20g</td>
+            <td>Protein</td><td>20 g</td>
           </tr>
           <tr>
-            <td>Fat</td><td>22g</td>
+            <td>Fat</td><td>22 g</td>
           </tr>
         </tbody>
       </table>
