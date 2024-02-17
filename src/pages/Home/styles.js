@@ -6,6 +6,13 @@ padding: 1rem;
 margin: auto;
 font-size: 1rem;
 line-height: 200%;
+main{
+  background: ${({ theme }) => theme.COLORS.White};
+  border-radius: 8px;  
+}
+.mainContainer{
+  padding: 0 0.5rem;
+}
 img{
   width: 100%;
   border-radius: 8px;
@@ -90,21 +97,36 @@ ul li::before {
 table{
   width: 100%;
   margin-top: 1.5rem;
+   
 }
 
 tr{
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid ${({theme})=>theme.COLORS.Wenge_Brown};  
+  
+  border-bottom: 1px solid ${({theme})=>theme.COLORS.Nutmeg};  
   padding: 1rem 0;
 }  
+td:nth-child(1){
+  width: 100%;
+  margin-left: 1rem;
+}
 td:nth-child(2){
+  display: flex;
+  align-items: center;
   font-weight: 500;
   color: ${({theme})=>theme.COLORS.Nutmeg};
+  
+  width: 100%;
 }
 @media (min-width: 700px) {
   width: 600px;
+  main{
+  background: ${({ theme }) => theme.COLORS.White};
+  border-radius: 8px;
+  padding: 2rem;
+}
 }
 
 ` 
